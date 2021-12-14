@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <meta name="description" content="description">
+
+    <title>Animated Navigation: Design Shack</title>
+
+    <link rel="stylesheet" media="screen" href="style.css" />
+
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ <style>
+
+     * {
+         padding: 0;
+         margin: 0;
+     }
+
+     body {
+         background: #f4f1e5;
+         color: #544738;
+         font-family: helvetica, sans-serif;
+     }
+     ul li {
+         float: left;
+         list-style: none;
+         margin-right: 1em;
+     }
+
+     li a {
+         color: #544738;
+         text-decoration: none;
+         float: left;
+         font-size: 25px;
+         padding: 12px;
+     }
+
+     li a:hover {
+         color: #7eb9be;
+     }
+
+
+     li a:hover {
+         -webkit-transform: rotate(-10deg) scale(1.2);
+         -moz-transform: rotate(-10deg) scale(1.2);
+         -o-transform: rotate(-10deg) scale(1.2);
+     }
+     ul li {
+         float: left;
+         list-style: none;
+         margin-right: 1em;
+         font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+         font-size: 25px;
+         padding: 12px;
+     }
+
+     li a {
+         color: #544738;
+         text-decoration: none;
+         float: left;
+     }
+
+     li a:hover {
+         color: #7eb9be;
+     }
+
+     .left a:hover {
+         -webkit-transform: rotate(-10deg) scale(1.2);
+         -moz-transform: rotate(-10deg) scale(1.2);
+         -o-transform: rotate(-10deg) scale(1.2);
+     }
+
+     .right a:hover {
+         -webkit-transform: rotate(10deg) scale(1.2);
+         -moz-transform: rotate(10deg) scale(1.2);
+         -o-transform: rotate(10deg) scale(1.2);
+     }
+ </style>
+</head>
+
+<body>
+
+<ul id="nav">
+    <li class="left"><a href="index.jsp">Home</a></li>
+    <li class="right"><a href="Myself.jsp">Myself</a></li>
+    <li class="left"><a href="hobbyPhotography.jsp">Hobby Photography</a></li>
+    <li class="right"><a href="HobbyListeningMusic.jsp">Hobby Listening Music</a></li><hr>
+</ul>
+</body>
+
+</html>
